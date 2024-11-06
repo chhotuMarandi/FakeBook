@@ -13,7 +13,7 @@ body {
   /* Define color variables */
   --facebook-color: #0866ff; /* Tomato */
   --error-color: #f00038; /* Teal */
-  --background-color: #f0f0f0; /* Light Gray */
+  --background-color: #f2f4f7; /* Light Gray */
   --text-color: #333333; /* Dark Gray */
   --border-color: #aeaeae80; /* Light Border */
 }
@@ -24,12 +24,36 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: var(--background-color);
 }
 
 .wrapper {
+  display: flex;
+  justify-content: space-around;
+  gap: 64px;
+  /* align-items: center; */
+}
+
+.header-section {
+  max-width: 500px;
+}
+
+.header {
+  color: var(--facebook-color);
+  margin-top: 24px;
+  font-size: 4rem;
+}
+
+.tagline {
+  font-size: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.login-section {
   padding: 24px;
   margin: 0 auto;
-  gap: 16px;
+  gap: 10px;
   width: 396px;
   display: flex;
   justify-content: center;
@@ -37,6 +61,7 @@ body {
   align-items: center;
   border-radius: 8px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: #fff;
 }
 
 .line {
@@ -72,14 +97,6 @@ body {
   align-items: center;
   width: 100%;
 }
-
-/* .input-section {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  border: 1px solid #aeaeae80;
-  border-radius: 6px;
-} */
 
 .login {
   width: 100%;

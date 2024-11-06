@@ -27,31 +27,40 @@
   <body>
     <div class="container">
       <div class="wrapper">
-        <div class="email-section input-field">
-          <input
-            type="email"
-            class="email"
-            placeholder="Email Address or phone number"
-          />
+        <div class="header-section">
+          <h1 class="header">fakebook</h1>
+          <p class="tagline">
+            Fakebook helps you connect and share with the people in your life.
+          </p>
         </div>
-        <div class="email-error">
-          <p class="mail-error">Please fill Valid email Address</p>
+
+        <div class="login-section">
+          <div class="email-section input-field">
+            <input
+              type="email"
+              class="email"
+              placeholder="Email Address or phone number"
+            />
+          </div>
+          <div class="email-error">
+            <p class="mail-error">Please fill Valid email Address</p>
+          </div>
+          <div class="input-section input-field">
+            <input type="password" class="password" placeholder="Password" />
+            <i class="fa-regular fa-eye pass-show" style="display: none"></i>
+            <i
+              class="fa-regular fa-eye-slash pass-hide"
+              style="display: none"
+            ></i>
+          </div>
+          <div class="show-error">
+            <p class="error">Please fill Email and Password</p>
+          </div>
+          <button class="login">Log in</button>
+          <a href="#" class="forget-password">Forgetten Password?</a>
+          <div class="line"></div>
+          <button class="new-account">Create new Account</button>
         </div>
-        <div class="input-section input-field">
-          <input type="password" class="password" placeholder="Password" />
-          <i class="fa-regular fa-eye pass-show" style="display: none"></i>
-          <i
-            class="fa-regular fa-eye-slash pass-hide"
-            style="display: none"
-          ></i>
-        </div>
-        <div class="show-error">
-          <p class="error">Please fill Email and Password</p>
-        </div>
-        <button class="login">Log in</button>
-        <a href="#" class="forget-password">Forgetten Password?</a>
-        <div class="line"></div>
-        <button class="new-account">Create new Account</button>
       </div>
     </div>
   </body>
