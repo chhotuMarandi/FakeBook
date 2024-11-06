@@ -12,7 +12,7 @@ body {
 :root {
   /* Define color variables */
   --facebook-color: #0866ff; /* Tomato */
-  --secondary-color: #008080; /* Teal */
+  --error-color: #f00038; /* Teal */
   --background-color: #f0f0f0; /* Light Gray */
   --text-color: #333333; /* Dark Gray */
   --border-color: #aeaeae80; /* Light Border */
@@ -113,5 +113,15 @@ body {
 }
 
 .fa-regular {
+  display: none;
+}
+
+.error {
+  color: var(--error-color);
+  display: none;
+}
+
+.mail-error {
+  color: var(--error-color);
   display: none;
 }
